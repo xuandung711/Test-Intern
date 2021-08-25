@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+}
+.nav {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 60px;  
+    width: 100%;
+}
+.nav__list {
+    display: flex; 
+    
+    
+}
+.nav__item {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    margin: 19px 30px;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.nav__logout {
+    background-color: #fff;
+    color:  black;
+    position: absolute;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    border-radius: 2px;
+    right: 4%;
+    margin: 12px 0;
+    font-size: 20px;
+    padding: 5px;
+}
+.nav__logout:hover {
+    background-color: rgb(168, 157, 157);
+}
+.category {
+    height: 20%;
+    width: 100%;
+}
+
+.category__heading {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 30px 0;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.category-list {    
+    padding: 5px 5px;
+}
+.category-item {
+    text-decoration: none;
+    padding: 10px 0;
+    list-style: none;
+
+}
+.category__icon{
+    margin-top: 0.5px;
+    font-size: 20px;
+}
+.category-link {
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 85%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.product {
+    display: flex;
+    margin: 30px 0 50px 0;
+    cursor: pointer;
+}
+.product-item {
+    padding: 5px 0;
+}
+
+.product-item__img {
+    border-radius: 3px;
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 1px 2px #e0e0e0;
+}
+.product-name {
+    height: 35px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.product-price {
+    margin: 10px 0;
+}
+.product-seen {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 3px 3px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+.product-seen:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.footer {
+    border-top: solid 1px rgba(0, 0, 0, 0.4);
+    padding: 40px 40px;
+}
+.footer-item {
+    padding: 5px 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 150px;
+    align-items: center;
+    text-align: center;
+}
+.footer-link {
+    margin: 10px 0;
+    color: #fff;
+}
